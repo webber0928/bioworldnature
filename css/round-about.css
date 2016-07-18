@@ -12,10 +12,20 @@ body {
 	margin: 0 auto;
 }
 
-footer {
-    margin: 50px 0;
-}
-
 .commodity > .col-sm-4 {
     padding-bottom: 20px;
+}
+
+.top-area {
+    border-bottom: 2px solid #98dae9;
+    margin-bottom: 25px;
+}
+.top-area img{
+    width: 50px;
+    margin-bottom: -1px;
+}
+
+.footer {
+    background: #98dae9;
+    color: #fff;
 }
