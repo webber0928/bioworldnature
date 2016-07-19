@@ -29,3 +29,39 @@ body {
     background: #98dae9;
     color: #fff;
 }
+
+.new-block {
+    height: 150px;
+    background: #f7f7f7;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.new-block .title-pages {
+    overflow: hidden;
+    height: 110px;
+}
+.new-block .title-pages ul {
+    width: 100%;
+    white-space: nowrap;
+    overflow: scroll;
+}
+.new-block .title-pages > ul > li {
+    display: inline-block;
+}
+
+img.new-title {
+    width: 200px;
+}
+
+.title-pages img {
+    height: 90px;
+}
+/*.product-box {
+    position: relative;
+}
+.product-box > .mask {
+    position: absolute;
+    background: red;
+}*/
