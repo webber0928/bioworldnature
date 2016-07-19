@@ -31,6 +31,8 @@ body {
     color: #000;
 }
 
+/*手機版*/
+
 .header-top {
     width: 100%;
     height: 15px;
@@ -67,6 +69,7 @@ body {
     color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: "微軟正黑體";
 }
 
 .footer p{
