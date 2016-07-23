@@ -131,3 +131,13 @@ img.new-title {
     position: absolute;
     background: red;
 }*/
+
+.header li.fb-logo {
+    border: none;
+}
+.header li.fb-logo > a {
+    padding: 0;
+}
+.header li.fb-logo > a > img {
+    height: 20px;
+}
