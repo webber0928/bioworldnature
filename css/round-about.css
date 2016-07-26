@@ -141,3 +141,9 @@ img.new-title {
 .header li.fb-logo > a > img {
     height: 20px;
 }
+
+@media (min-width: 768px){
+    .header .navbar-nav {
+        top: -10px;
+    }
+}
