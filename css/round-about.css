@@ -144,6 +144,6 @@ img.new-title {
 
 @media (min-width: 768px){
     .header .navbar-nav {
-        top: -10px;
+        /*top: -10px;*/
     }
 }
