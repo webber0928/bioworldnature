@@ -18,17 +18,37 @@ body {
     top: 80px;
 }
 
-.header .navbar-nav li {
+.header .navbar-nav > li {
     border-left: 3px solid #98dae9;
 }
 
-.header .navbar-nav li a {
+/*第二層*/
+.header .navbar-nav > li > ul {
+  padding: 0;
+  margin-left: -3px;
+}
+
+.header .navbar-nav > li > ul > li {
+    border-left: 3px solid #bba0cb;
+}
+
+.header .navbar-nav > li > ul > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header .navbar-nav > li > ul > li > a:hover {
+  background-color: #bba0cb;
+}
+
+.header .navbar-nav > li a {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.header .navbar-nav li a:hover {
+.header .navbar-nav > li > a.first-link:hover, .header .navbar-nav > li > a.first-link:focus{
     color: #000;
+    background-color: #fff;
 }
 
 /*手機版*/
@@ -146,4 +166,9 @@ img.new-title {
     .header .navbar-nav {
         /*top: -10px;*/
     }
+}
+
+#mobile-nav .navbar-nav {
+  top: 0px;
+  width: 100%;
 }
