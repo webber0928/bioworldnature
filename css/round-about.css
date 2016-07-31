@@ -167,8 +167,9 @@ img.new-title {
         /*top: -10px;*/
     }
 }
-
-#mobile-nav .navbar-nav {
-  top: 0px;
-  width: 100%;
+@media screen and (max-width: 480px) {
+  #mobile-nav .navbar-nav {
+    top: 0px;
+    width: 100%;
+  }
 }
