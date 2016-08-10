@@ -173,3 +173,18 @@ img.new-title {
     width: 100%;
   }
 }
+
+.contact-box {
+    display: flex; /*顯示模式設為flex*/
+    height: 100%;
+}
+
+.contact-info {
+    color: #4b4848;
+    font-size: 20px;
+    height: 575px;
+    margin: auto;/*當在flex下，設為auto時，就會垂直與水平居中*/
+    display:flex;
+    align-items:center; /*文字水平居中*/
+    justify-content:center;/*文字垂直居中*/
+}
