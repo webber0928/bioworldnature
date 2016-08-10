@@ -188,3 +188,41 @@ img.new-title {
     align-items:center; /*文字水平居中*/
     justify-content:center;/*文字垂直居中*/
 }
+
+.about-me-desc {
+    color: #221814;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.about-me-desc p {
+    margin: 0;
+}
+
+.about-me-content {
+    color: #4b4848;
+    font-size: 18px;
+}
+
+.about-footer p, .about-header p {
+    max-width: 715px;
+    margin: auto;
+}
+
+.about-header{
+    padding-bottom: 40px;
+}
+
+.about-body {
+    max-width: 650px;
+    margin: auto;
+    font-size: 16px;
+}
+.about-body > div {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.about-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
