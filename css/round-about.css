@@ -235,3 +235,16 @@ img.new-title {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.productAdvantages-table {
+  width: 100%;
+}
+
+.productAdvantages-table tbody tr{
+  border-bottom: 2px solid #98dae9;
+}
+
+.productAdvantages-table tbody td{
+  padding-top: 10px;
+  text-align: left;
+}
