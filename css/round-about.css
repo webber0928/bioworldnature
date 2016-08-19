@@ -4,6 +4,21 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@media (min-width: 768px){
+    .header .navbar-nav {
+        /*top: -10px;*/
+    }
+}
+@media screen and (max-width: 480px) {
+  #mobile-nav .navbar-nav {
+    top: 0px;
+    width: 100%;
+  }
+  .about-me-desc {
+      font-size: 15px !important;
+  }
+}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: "微軟正黑體";
@@ -171,18 +186,6 @@ img.new-title {
     height: 20px;
 }
 
-@media (min-width: 768px){
-    .header .navbar-nav {
-        /*top: -10px;*/
-    }
-}
-@media screen and (max-width: 480px) {
-  #mobile-nav .navbar-nav {
-    top: 0px;
-    width: 100%;
-  }
-}
-
 .contact-box {
     display: flex; /*顯示模式設為flex*/
     height: 100%;
@@ -250,4 +253,8 @@ img.new-title {
 }
 dl dd {
     padding-left: 40px;
+}
+
+.about-me-desc > img {
+    max-width: 100%;
 }
