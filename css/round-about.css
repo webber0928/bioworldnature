@@ -258,3 +258,16 @@ dl dd {
 .about-me-desc > img {
     max-width: 100%;
 }
+.list-table tr {
+    border-bottom: 2px solid #98dae9;
+}
+.list-table > thead th {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.list-table > thead th:last-child {
+    padding-right: 0;
+}
+.list-table > tbody td {
+    padding-top: 10px;
+}
