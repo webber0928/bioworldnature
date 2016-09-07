@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+body, table, p, div, span, form, input, textarea, select, pre, button { font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
+
 @media (min-width: 768px){
     .header .navbar-nav {
         /*top: -10px;*/
@@ -278,4 +280,47 @@ dl dd {
 
 .about-me-content table.list .text{
     padding-left: 10px;
+}
+
+/*最新消息*/
+.date {
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    width: 50px;
+    margin-right: 10px;
+    padding: 4px 5px;
+    background: #575757;
+    text-align: center;
+    float: left;
+    line-height: 1;
+    background: #0087AD;
+}
+.month {
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: normal;
+    display: block;
+}
+.year {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 13px;
+    display: block;
+}
+.news-content {
+    padding-left: 80px;
+    margin-top: -6px;
+}
+.news:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+.news {
+    padding-top: 10px;
+    text-align: center;
+    cleal:both;
+}
+.news-title {
+    font-size: 24px;
+    font-weight: bold;
 }
