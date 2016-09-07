@@ -271,3 +271,11 @@ dl dd {
 .list-table > tbody td {
     padding-top: 10px;
 }
+
+.about-me-content table.list .title{
+    vertical-align: top;
+}
+
+.about-me-content table.list .text{
+    padding-left: 10px;
+}
