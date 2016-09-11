@@ -324,3 +324,7 @@ dl dd {
     font-size: 24px;
     font-weight: bold;
 }
+
+.logo {
+    max-width: 100%;
+}
