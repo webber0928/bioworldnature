@@ -23,7 +23,6 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: "微軟正黑體";
 }
 
 .purple-color {
@@ -131,7 +130,6 @@ body {
     color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: "微軟正黑體";
 }
 
 .footer p{
