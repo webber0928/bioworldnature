@@ -24,10 +24,29 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style>
+        body {
+            background: url(../img/bg-01.png);background-size: 100% auto ;background-position-y: 120px;
+        }
+        @media all and (min-width: 480px) and (max-width: 768px) {
+            body{
+              background: none;
+            }
+        }
+        @media all and (min-width: 320px) and (max-width: 480px) {
+            body{
+              background: none;
+            }
+        }
+        @media all and (max-width: 320px) {
+            body{
+              background: none;
+            }
+        }
+    </style>
 </head>
 
-<body style="background: url(../img/bg-01.png);background-size: 100% auto ;background-position-y: 120px;">
+<body style="">
 
     <!-- Navigation -->
     <nav class="header navbar navbar-inverse navbar-fixed-top" role="navigation">
