@@ -331,3 +331,6 @@ dl dd {
 .img-sponsor img {
     max-width: 100%;
 }
+.clear {
+    clear:both;
+}
