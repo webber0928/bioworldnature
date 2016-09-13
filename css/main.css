@@ -210,6 +210,10 @@ img.new-title {
     margin: 0;
 }
 
+.about-me-desc ul {
+    padding-top: 15px;
+}
+
 .about-me-content {
     color: #4b4848;
     font-size: 18px;
