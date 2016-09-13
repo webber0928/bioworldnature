@@ -262,8 +262,8 @@ dl dd {
 .about-me-desc > img {
     max-width: 100%;
 }
-.list-table tr {
-    border-bottom: 2px solid #98dae9;
+table.list-table, table.list-table>tbody>tr>td, table.list-table>thead>tr>th {
+    border: 1px solid #98dae9;
 }
 .list-table > thead th {
     padding-right: 20px;
