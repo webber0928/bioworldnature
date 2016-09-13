@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body, table, p, div, span, form, input, textarea, select, pre, button { font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
+/*body, table, p, div, span, form, input, textarea, select, pre, button { font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }*/
 
 @media (min-width: 768px){
     .header .navbar-nav {
