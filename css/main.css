@@ -336,3 +336,7 @@ table.list-table, table.list-table>tbody>tr>td, table.list-table>thead>tr>th {
 .clear {
     clear:both;
 }
+
+table.table-noboder.list-table, table.table-noboder.list-table>tbody>tr>td, table.table-noboder.list-table>thead>tr>th {
+    border: 1px solid #fff;
+}
