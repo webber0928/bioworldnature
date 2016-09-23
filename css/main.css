@@ -340,3 +340,20 @@ table.list-table, table.list-table>tbody>tr>td, table.list-table>thead>tr>th {
 table.table-noboder.list-table, table.table-noboder.list-table>tbody>tr>td, table.table-noboder.list-table>thead>tr>th {
     border: 1px solid #fff;
 }
+
+/* 手機版面的style */
+@media all and (min-width: 480px) and (max-width: 768px) {
+    body{
+      background: none !important;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 480px) {
+    body{
+      background: none !important;
+    }
+}
+@media all and (max-width: 320px) {
+    body{
+      background: none !important;
+    }
+}
