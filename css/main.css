@@ -346,14 +346,83 @@ table.table-noboder.list-table, table.table-noboder.list-table>tbody>tr>td, tabl
     body{
       background: none !important;
     }
+    #mobile-nav .navbar-nav {
+        left: 0 !important;
+        margin: 0;
+    }
+    .header .navbar-nav li a[data-toggle="dropdown"]::after {
+        content: "\e114";
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        position: relative;
+        top: 5px;
+        padding-left: 7px;
+    }
+    .header .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin-left: 8px;
+        font-size: 18px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 10px 15px 10px 36px;
+    }
 }
 @media all and (min-width: 320px) and (max-width: 480px) {
     body{
       background: none !important;
     }
+    #mobile-nav .navbar-nav {
+        left: 0 !important;
+        margin: 0;
+    }
+    .header .navbar-nav li a[data-toggle="dropdown"]::after {
+        content: "\e114";
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        position: relative;
+        top: 5px;
+        padding-left: 7px;
+    }
+    .header .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin-left: 8px;
+        font-size: 18px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 10px 15px 10px 36px;
+    }
 }
 @media all and (max-width: 320px) {
     body{
       background: none !important;
+    }
+    #mobile-nav .navbar-nav {
+        left: 0 !important;
+        margin: 0;
+    }
+    .header .navbar-nav li a[data-toggle="dropdown"]::after {
+        content: "\e114";
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        position: relative;
+        top: 5px;
+        padding-left: 7px;
+    }
+    .header .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin-left: 8px;
+        font-size: 18px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 10px 15px 10px 36px;
     }
 }
