@@ -426,3 +426,15 @@ table.table-noboder.list-table, table.table-noboder.list-table>tbody>tr>td, tabl
         padding: 10px 15px 10px 36px;
     }
 }
+
+.big-title {
+    background: #98dae9;
+    letter-spacing: 4px;
+    max-width: 700px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 5px 0;
+    margin: auto;
+    clear: both;
+}
